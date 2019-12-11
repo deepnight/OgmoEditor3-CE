@@ -1,0 +1,31 @@
+{
+	"skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+	"commands": [
+		{
+			"text": "🎁 NPM Install",
+			"color": "orange",
+			"command": "npm i",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -10
+		},
+		{
+			"text": "⚙️ NPM Build",
+			"color": "yellow",
+			"command": "npm run build",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -11
+		},
+		{
+			"text": "📦 NPM Distrib",
+			"color": "lightgreen",
+			"command": "npm run dist",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -50
+		}
+	]
+}
