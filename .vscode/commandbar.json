@@ -6,7 +6,7 @@
 		{
 			"text": "🎁 NPM Install",
 			"color": "orange",
-			"command": "npm i",
+			"command": "start npm i",
 			"alignment": "right",
 			"skipTerminateQuickPick": false,
 			"priority": -10
@@ -14,7 +14,7 @@
 		{
 			"text": "⚙️ NPM Build",
 			"color": "yellow",
-			"command": "npm run build",
+			"command": "start npm run build",
 			"alignment": "right",
 			"skipTerminateQuickPick": false,
 			"priority": -11
@@ -22,7 +22,7 @@
 		{
 			"text": "📦 NPM Distrib",
 			"color": "lightgreen",
-			"command": "npm run dist",
+			"command": "start npm run dist",
 			"alignment": "right",
 			"skipTerminateQuickPick": false,
 			"priority": -50
